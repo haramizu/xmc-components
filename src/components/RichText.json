@@ -1,0 +1,28 @@
+{
+  "rendering": {
+    "uid": "167445d2-3d56-4b12-8f9d-6a858e80f46b",
+    "componentName": "RichText",
+    "dataSource": "/sitecore/content/Tailwindcss/Tailwindcss/Home/Data/Text 1",
+    "params": {
+      "GridParameters": "basis-full",
+      "FieldNames": "Default",
+      "DynamicPlaceholderId": "1"
+    },
+    "fields": {
+      "Text": {}
+    }
+  },
+  "modifyComponentProps": "[Function: modifyComponentProps]",
+  "componentFactory": "[Function (anonymous)]",
+  "fields": {
+    "Text": {
+      "value": "<h1>Heading 1</h1>\n<p>Paragraph</p>\n<h2>Heading 2</h2>\n<p>Paragraph</p>"
+    }
+  },
+  "params": {
+    "GridParameters": "basis-full",
+    "FieldNames": "Default",
+    "DynamicPlaceholderId": "1",
+    "styles": "basis-full "
+  }
+}

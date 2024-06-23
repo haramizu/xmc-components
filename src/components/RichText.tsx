@@ -1,34 +1,56 @@
-import React from 'react';
-import { Field, RichText as JssRichText } from '@sitecore-jss/sitecore-jss-nextjs';
+import React from "react";
+import "../assets/globals.css";
 
-import '../assets/globals.css';
-
-interface Fields {
-  Text: Field<string>;
+interface RichTextProps {
+  /**
+   * Is this the principal call to action on the page?
+   */
+  primary?: boolean;
+  /**
+   * What background color to use
+   */
+  backgroundColor?: string;
+  /**
+   * How large should the button be?
+   */
+  size?: "small" | "medium" | "large";
+  /**
+   * Button contents
+   */
+  label: string;
+  /**
+   * Optional click handler
+   */
+  onClick?: () => void;
 }
-
-export type RichTextProps = {
-  params: { [key: string]: string };
-  fields: Fields;
-};
 
 /**
  * Primary UI component for user interaction
  */
-export const RichText = (props: RichTextProps): JSX.Element => {
-  const text = props.fields ? (
-    <JssRichText field={props.fields.Text} />
-  ) : (
-    <span className="is-empty-hint">Rich text</span>
-  );
-  const id = props.params.RenderingIdentifier;
-
+export const RichText = ({
+  primary = false,
+  size = "medium",
+  backgroundColor,
+  label,
+  ...props
+}: RichTextProps) => {
+  const mode = primary
+    ? "storybook-button--primary"
+    : "storybook-button--secondary";
   return (
-    <div
-      className={`component rich-text ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
+    <button
+      type="button"
+      className={["storybook-button", `storybook-button--${size}`, mode].join(
+        " "
+      )}
+      {...props}
     >
-      <div className="component-content">{text}</div>
-    </div>
+      {label}
+      <style jsx>{`
+        button {
+          background-color: ${backgroundColor};
+        }
+      `}</style>
+    </button>
   );
 };
