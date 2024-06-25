@@ -1,0 +1,71 @@
+{
+    "rendering": {
+      "uid": "0a9443d1-44ff-464d-b70d-171208b86c10",
+      "componentName": "LinkList",
+      "dataSource": "/sitecore/content/Tailwindcss/Tailwindcss/Home/Data/Sample",
+      "params": {
+        "GridParameters": "basis-full",
+        "FieldNames": "Default",
+        "DynamicPlaceholderId": "1"
+      },
+      "fields": {
+        "data": {}
+      }
+    },
+    "fields": {
+      "data": {
+        "datasource": {
+          "children": {
+            "results": [
+              {
+                "field": {
+                  "link": {
+                    "value": {
+                      "text": "",
+                      "anchor": "",
+                      "linktype": "internal",
+                      "class": "",
+                      "title": "",
+                      "target": "|Custom",
+                      "querystring": "sc_site=Tailwindcss",
+                      "id": "{013E21CB-52B9-4260-A521-FB10ECE27315}",
+                      "href": "/Link"
+                    }
+                  }
+                }
+              },
+              {
+                "field": {
+                  "link": {
+                    "value": {
+                      "text": "",
+                      "anchor": "",
+                      "linktype": "internal",
+                      "class": "",
+                      "title": "",
+                      "target": "|Custom",
+                      "querystring": "sc_site=Tailwindcss",
+                      "id": "{8E9261F9-95A3-4B40-8B2D-B62133998F07}",
+                      "href": "/Link-2"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "field": {
+            "title": {
+              "value": "Sample Link"
+            }
+          }
+        }
+      }
+    },
+    "params": {
+      "GridParameters": "basis-full",
+      "FieldNames": "Default",
+      "DynamicPlaceholderId": "1",
+      "styles": "basis-full "
+    }
+  }
+  
