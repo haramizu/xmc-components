@@ -1,0 +1,66 @@
+{
+  "rendering": {
+    "uid": "0a7e5efb-29b2-4b88-ab3c-2a665157092e",
+    "componentName": "Promo",
+    "dataSource": "/sitecore/content/Tailwindcss/Tailwindcss/Home/Data/Test",
+    "params": {
+      "GridParameters": "basis-full",
+      "FieldNames": "Default",
+      "DynamicPlaceholderId": "1"
+    },
+    "fields": {
+      "PromoText2": {},
+      "PromoLink": {},
+      "PromoIcon": {},
+      "PromoText": {},
+      "PromoIcon2": {},
+      "PromoText3": {}
+    }
+  },
+  "fields": {
+    "PromoText2": {
+      "value": "<h1>PromoText2</h1>\n<p>paragraph</p>"
+    },
+    "PromoLink": {
+      "value": {
+        "text": "",
+        "anchor": "",
+        "linktype": "internal",
+        "class": "",
+        "title": "",
+        "target": "|Custom",
+        "querystring": "sc_site=Tailwindcss",
+        "id": "{013E21CB-52B9-4260-A521-FB10ECE27315}",
+        "href": "/Link"
+      }
+    },
+    "PromoIcon": {
+      "value": {
+        "src": "/-/media/Project/Tailwindcss/Tailwindcss/franck-DoWZMPZ-M9s-unsplash.jpg?h=3024&iar=0&w=4032",
+        "alt": "Lock",
+        "width": "4032",
+        "height": "3024"
+      }
+    },
+    "PromoText": {
+      "value": "<h1>PromoText</h1>\n<p>paragraph</p>"
+    },
+    "PromoIcon2": {
+      "value": {
+        "src": "/-/media/Project/Tailwindcss/Tailwindcss/franck-DoWZMPZ-M9s-unsplash.jpg?h=3024&iar=0&w=4032",
+        "alt": "Lock",
+        "width": "4032",
+        "height": "3024"
+      }
+    },
+    "PromoText3": {
+      "value": "<h1>PromoText3</h1>\n<p>paragraph</p>"
+    }
+  },
+  "params": {
+    "GridParameters": "basis-full",
+    "FieldNames": "Default",
+    "DynamicPlaceholderId": "1",
+    "styles": "basis-full"
+  }
+}

@@ -1,4 +1,5 @@
-.component.rich-text {
+.component.rich-text,
+.component.promo {
   h1 {
     @apply text-4xl;
   }

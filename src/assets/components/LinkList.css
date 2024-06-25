@@ -1,0 +1,8 @@
+.component.link-list {
+  h3 {
+    @apply text-xl font-bold;
+  }
+  li {
+    @apply ml-4 list-disc;
+  }
+}

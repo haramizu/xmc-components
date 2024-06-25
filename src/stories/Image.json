@@ -1,0 +1,72 @@
+{
+  "rendering": {
+    "uid": "5487b80e-7550-4c77-80a6-69836673e2eb",
+    "componentName": "Image",
+    "dataSource": "/sitecore/content/Tailwindcss/Tailwindcss/Home/Data/Image 1",
+    "params": {
+      "GridParameters": "basis-full",
+      "FieldNames": "Default",
+      "DynamicPlaceholderId": "2"
+    },
+    "fields": {
+      "TargetUrl": {
+        "value": {
+          "text": "",
+          "anchor": "",
+          "linktype": "internal",
+          "class": "",
+          "title": "",
+          "target": "|Custom",
+          "querystring": "sc_site=Tailwindcss",
+          "id": "{013E21CB-52B9-4260-A521-FB10ECE27315}",
+          "href": "/Link"
+        }
+      },
+      "Image": {
+        "value": {
+          "src": "/-/media/Project/Tailwindcss/Tailwindcss/franck-DoWZMPZ-M9s-unsplash.jpg?h=3024&iar=0&w=4032",
+          "alt": "Lock",
+          "width": "4032",
+          "height": "3024"
+        }
+      },
+      "ImageCaption": {
+        "value": "Smartphone Lock"
+      }
+    }
+  },
+  "modifyComponentProps": "[Function: modifyComponentProps]",
+  "componentFactory": "[Function (anonymous)]",
+  "fields": {
+    "TargetUrl": {
+      "value": {
+        "text": "",
+        "anchor": "",
+        "linktype": "internal",
+        "class": "",
+        "title": "",
+        "target": "|Custom",
+        "querystring": "sc_site=Tailwindcss",
+        "id": "{013E21CB-52B9-4260-A521-FB10ECE27315}",
+        "href": "/Link"
+      }
+    },
+    "Image": {
+      "value": {
+        "src": "/-/media/Project/Tailwindcss/Tailwindcss/franck-DoWZMPZ-M9s-unsplash.jpg?h=3024&iar=0&w=4032",
+        "alt": "Lock",
+        "width": "4032",
+        "height": "3024"
+      }
+    },
+    "ImageCaption": {
+      "value": "Smartphone Lock"
+    }
+  },
+  "params": {
+    "GridParameters": "basis-full",
+    "FieldNames": "Default",
+    "DynamicPlaceholderId": "2",
+    "styles": "basis-full "
+  }
+}
