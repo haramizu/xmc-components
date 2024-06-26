@@ -1,0 +1,47 @@
+{
+  "rendering": {
+    "uid": "0ba6a135-5f55-42ff-8adc-0fde4f08bf14",
+    "componentName": "Navigation",
+    "dataSource": "",
+    "params": {
+      "GridParameters": "basis-full",
+      "FieldNames": "Default",
+      "NavigationRoot": "{A4F8F13E-C28A-404F-8549-15E7533B0B67}",
+      "LevelFrom": "{1BB88840-5FB3-4353-AD8D-81136F6FF75A}",
+      "LevelTo": "{A59325BB-5A27-46F9-8110-9D499715F3BE}",
+      "AddRoot": "1"
+    },
+    "fields": [
+      {
+        "Object": {}
+      }
+    ]
+  },
+  "modifyComponentProps": "Function: modifyComponentProps",
+  "componentFactory": "Function (anonymous)",
+  "fields": {
+    "0": {
+      "Id": "a4f8f13e-c28a-404f-8549-15e7533b0b67",
+      "Styles": [
+        "Array"
+      ],
+      "Href": "/",
+      "Querystring": "sc_site=Tailwindcss",
+      "NavigationTitle": {
+        "Object": {}
+      },
+      "Children": [
+        "Array"
+      ]
+    }
+  },
+  "params": {
+    "GridParameters": "basis-full",
+    "FieldNames": "Default",
+    "NavigationRoot": "{A4F8F13E-C28A-404F-8549-15E7533b0b67}",
+    "LevelFrom": "{1BB88840-5FB3-4353-AD8D-81136F6FF75A}",
+    "LevelTo": "{A59325BB-5A27-46F9-8110-9D499715F3BE}",
+    "AddRoot": "1",
+    "styles": "basis-full"
+  }
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "Id": "a4f8f13e-c28a-404f-8549-15e7533b0b67",
+    "Styles": ["level0", "submenu", "item0", "odd", "first", "last", "active"],
+    "Href": "/",
+    "Querystring": "sc_site=Tailwindcss",
+    "NavigationTitle": {
+      "value": "Tailwindcss",
+      "editable": "Tailwindcss"
+    },
+    "Children": [{}, {}, {}, {}]
+  }
+]
