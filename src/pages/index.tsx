@@ -25,6 +25,28 @@ export default function Home() {
             <Link href="/switch">Switch</Link>
           </li>
         </ul>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
+        <p>Loren</p>
       </main>
     </div>
   );

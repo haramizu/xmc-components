@@ -1,15 +1,17 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { GoogleTagManager } from "@next/third-parties/google";
-import { ModeToggle } from "@/components/mode";
 import { ThemeProvider } from "next-themes";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <ThemeProvider attribute="class">
-        <ModeToggle />
+        <Header />
         <Component {...pageProps} />
+        <Footer />
         <GoogleTagManager
           gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER || ""}
         />
